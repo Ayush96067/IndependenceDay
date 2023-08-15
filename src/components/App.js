@@ -98,7 +98,7 @@ export default function App() {
   );
 
   useEffect(function () {
-    fetch("https://github.com/Ayush96067/IndependenceDay/blob/master/questions.json")
+    fetch("https://github.com/Ayush96067/IndependenceDay/blob/master/data/questions.json")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataRecieved", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
