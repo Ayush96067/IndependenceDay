@@ -1,0 +1,72 @@
+
+///////////////////////// UseReducer //////////////////////////////
+
+It is a hook similar to useState.
+=> It allows for custom state logic.
+=> If you find yourself keeping track of multiple pieces of state that rely on complex logic, useReducer may be very useful.
+
+Syntax... 
+const [state, dispatch] = useReducer(<reducer>,<initialState>);
+
+function reducer(state,action){
+    ..........
+    ..........
+}
+
+* state => stores related pieces of state as object.
+
+* dispatch => function to trigger state updates, by "sending" actions from event handlers to the reducer function.
+
+* <reducer> is a function containing your custom state logic to update state.
+    It is a pure function that takes current state and action, and return the next state.
+
+* <initialState> returns the current state and a dispatch method.
+
+* action: object that describes how to update state.
+
+
+////////////////////////////////////////  Why useReducer /////////////////////////////
+
+State management with useState is not enough in certain situations :
+=> When components have a lot of state variables and state updates, spread across many event handlers all over the component.
+=> When multiple state updates need to happen at the same time(as a reaction to the same event, like "starting a game").
+=> When updating one piece of state depends on one or multiple other pieces of state.
+
+
+///////////////////// How reducers update state. //////////////////////////////////
+
+step: 
+1. Updating a state in a component => We call a dispatch function in order to dispatch an action to the reducer.
+
+2. This action contain the information for the reducer(about how the reducer update the state).
+
+3. Reducer takes in this action together with current state and return a new state.(next state)
+
+4. React reducer accumulates all actions into one single state overtime.
+ 
+
+//////////////// UseState vs useReducer //////////////////////////////////
+
+useState : 
+    => Ideal for single, independent pieces of state(numbers, strings, single , arrays etc)
+    => Logic to update state is placed directly in event handlers or effects, spread all over one or multiple components.
+    => State is updated by calling setState(setter returned from useState)
+    => Imperative state updates.
+                eg. setScore(0); or setPlaying(true);
+    => Easy to understand and to use.
+
+useReducer:
+    => Ideal for multiple related pieces of state and complex state (eg. object with many values and nested objects or arrays)
+    => Logic to update state lives in one central place, decoupled from components: the reducer.
+    => State is updated by displaying an action to a reducer
+    => Declarative state updates: complex state transitions are mapped to actions
+                eg. dispatch({type:"startGame"});
+    => More difficult to understand and implement
+
+    //////////////// When to use UseReducer ////////////////////
+
+=> If there is just one piece of state => useState.
+=> If more than one piece of state and these states frequently update together => useReducer
+=> If more than one piece of state and these states frequently update together => useReducer.
+=> If more than one piece of state and not updated frequently together and there is over 3 or 4 pieces of related state, including objects. => useReducer.
+=> Too many event handlers make components large and confusing.
