@@ -98,7 +98,7 @@ export default function App() {
   );
 
   useEffect(function () {
-    fetch("https://questions-udza.onrender.com")
+    fetch("https://questions-udza.onrender.com/questions")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataRecieved", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
