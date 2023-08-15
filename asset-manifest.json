@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/IndependenceDay/static/css/main.48480236.css",
+    "main.js": "/IndependenceDay/static/js/main.8a396a89.js",
+    "index.html": "/IndependenceDay/index.html",
+    "main.48480236.css.map": "/IndependenceDay/static/css/main.48480236.css.map",
+    "main.8a396a89.js.map": "/IndependenceDay/static/js/main.8a396a89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48480236.css",
+    "static/js/main.8a396a89.js"
+  ]
+}
