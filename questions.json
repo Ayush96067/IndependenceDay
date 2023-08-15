@@ -1,0 +1,150 @@
+{
+  "questions": [
+    {
+      "question": "In Which year India get its Independence from the BritishRule",
+      "options": ["1956", "1947", "1958", "1919"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "When did India came under the direct rule of the British crown?",
+      "options": ["1757", "1764", "1858", "1930"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Who will raise the flag during national level Independence day function in 2023 at Red Fort?",
+      "options": [
+        "Narendra Modi",
+        "Pranab Mukherjee",
+        "Ram Nath Kovind",
+        "Rajnath Singh"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "'Tum mujhe khoon do, mein tumhe azadi doonga' was said by which of the following persons?",
+      "options": [
+        " Bhagat Singh",
+        " Lala Lajpat Rai",
+        "Subhash Chandra Bose",
+        "Vallabhbhai Patel"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "East India Company started trade with India from which city?",
+      "options": [
+        "Bombay(Mumbai)",
+        "Surat",
+        "Madras (Chennai)",
+        "Calcutta (Kolkata)"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What was the name of the mission sent by british government to India to seek cooperation during World War II?",
+      "options": [
+        "Cripps Mission",
+        " Simon Commission",
+        "United Kingdom Cabinet Mission",
+        "Morley-Minto Mission"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following revolutionaries died due to hunger strike at Lahore jail?",
+      "options": [
+        "Kishori Lal",
+        "Jatin Das",
+        " Lala Lajpat Rai",
+        "Madan Lal Dhingra"
+      ],
+
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "Which of the following leaders is known as the 'Iron Man of India' ?",
+      "options": [
+        " Baldev Singh",
+        "Bhagat Singh",
+        "Lal Bahadur Shastri",
+        "Vallabhbhai Patel"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "After independence, who was the first Governor-General of India?",
+      "options": [
+        "Rajendra Prasad",
+        "Lord Mountbatten",
+        "Lord Dalhousie",
+        "C. Rajagopalachari"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "When did Vasco da Gama discovered the sea route to India?",
+      "options": ["1600", "1757", "1764", "1498"],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "Who was the first ambassador of East India company in mughal emperor Jahangir's court?",
+      "options": [
+        "Thomas Roe",
+        "John Hawkins",
+        "William Hawkins",
+        "Warren Hastings"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "At the time of independence, how many provinces were there in British India?",
+      "options": ["7", "11", "14", "17"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "What happened during the Chauri Chaura incident?",
+      "options": [
+        "A police station was set on fire",
+        "Revolt by the soldiers in the British Indian armay",
+        "Strike by mill workers",
+        "None of these"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "Which one was the first major battle fought by British East India company?",
+      "options": [
+        "Battle of Plassey",
+        " Battle of Buxar",
+        "Revolt of 1857",
+        "Battle of Panipat"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "Which of the following Indian freedom fighters killed a british officer in Britain?",
+      "options": [
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Udham Singh",
+        "Lala Har Dayal"
+      ],
+      "correctOption": 2,
+      "points": 20
+    }
+  ]
+}
